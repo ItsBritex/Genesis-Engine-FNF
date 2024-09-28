@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friday Nigth Funkin'</title>
+
+    <link rel="stylesheet" href="./main/src/main.css">
+    <link rel="shortcut icon" href="x-favico_co.ico" type="image/x-icon">
+</head>
+<body>
+    <!--lime test windows? what?-->
+    <canvas id="canvas"></canvas>
+
+    <audio src= "./main/public/sounds/sfx/cancel.ogg" id="cancel"></audio>
+    <audio src="./main/public/sounds/sfx/confirmMenu.ogg" id="confirmMenu"></audio>
+    <audio src="./main/public/sounds/music/freakyMenu.ogg" id="freakyMenu"></audio>
+    <audio src="./main/public/sounds/sfx/scroll.ogg" id="scroll"></audio>
+
+    <!-- Scripts -->
+    <script src="https://code.createjs.com/1.0.0/preloadjs.min.js"></script>
+    <script src="./game/config/config.js"></script>
+    <script src="./main/src/main.js"></script>
+    
+    <div id="fps-memory-container">
+        <div id="fps-counter">FPS: 0</div>
+        <div id="memory-counter">Memory: 0 MB</div>
+    </div>
+</body>
+</html>

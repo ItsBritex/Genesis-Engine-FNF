@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'FridayNightFunkin';
+    src: url('../../../../game/fonts/FridayNightFunkin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, h1, h2, h3, p, .menu-text {
+    font-family: 'FridayNightFunkin', sans-serif;
+}
+
+body {
+    font-family: 'FridayNightFunkin';
+    background: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+#fps-memory-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+}
+
+.selected {
+    background-color: #33333379; /* Fondo oscuro para resaltar */
+    color: #ffffff; /* Mantener el texto en blanco */
+}

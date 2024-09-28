@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'FridayNightFunkin';
+    src: url('../../fonts/FridayNightFunkin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#game-container {
+    position: relative;
+    width: 100vw; /* Asegúrate de que ocupe todo el ancho de la ventana */
+    height: 100vh; /* Asegúrate de que ocupe todo el alto de la ventana */
+    overflow: hidden; /* Para evitar desbordamientos al hacer zoom */
+    background-color: lightgray; /* Color temporal para ver el área del juego */
+}
+
+body {
+    background: #000;
+    overflow: hidden;
+    font-family: 'FridayNightFunkin';
+}
+
+#fps-memory-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+}
+
+#fps-counter, #memory-counter {
+    margin: 0;
+    padding: 0;
+}

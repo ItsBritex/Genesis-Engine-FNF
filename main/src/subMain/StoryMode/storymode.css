@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'FridayNightFunkin';
+    src: url('../../../../game/fonts/FridayNightFunkin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'FridayNightFunkin-Regular', sans-serif;
+}
+
+#fps-memory-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+}
+
+#fps-counter, #memory-counter {
+    margin: 0;
+    padding: 0;
+}

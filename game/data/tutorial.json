@@ -1,0 +1,23 @@
+{
+    "globalSpeed": 11,
+        "player": {
+        "arrows": [
+            { "type": "left", "delay": 0, "hold": 0 },
+      { "type": "down", "delay": 500, "hold": 2 },
+      { "type": "up", "delay": 1000, "hold": 0 },
+      { "type": "right", "delay": 1500, "hold": 3 },
+      { "type": "left", "delay": 2000, "hold": 0 },
+      { "type": "down", "delay": 2500, "hold": 0 },
+      { "type": "up", "delay": 3000, "hold": 1 },
+      { "type": "right", "delay": 3500, "hold": 0 }
+        ]
+    },
+    "enemy": {
+        "arrows": [
+            { "type": "left", "delay": 700 },
+            { "type": "down", "delay": 1200 },
+            { "type": "up", "delay": 1700 },
+            { "type": "right", "delay": 2200 }
+        ]
+    }
+}
